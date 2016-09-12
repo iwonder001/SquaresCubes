@@ -12,7 +12,11 @@ public class Application {
 		System.out.println("Enter an integer: ");
 		int num = in.nextInt();
 		
-		//int i;
+		int i;
+		
+		for (i = 1; i>=num; i++) {
+			System.out.println(i);
+		}
 		
 		
 		
